@@ -1,0 +1,7 @@
+# Build folder and log file
+.vscode
+*yarn-error.log
+build/
+build.log
+package-lock.json
+node_modules/*
