@@ -2,23 +2,23 @@ echo "deploy begin....."
 
 TF_CMD=node_modules/.bin/truffle-flattener
 
-# echo "" >  ./deployments/ExohoodToken.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodToken.full.sol
-# $TF_CMD ./contracts/Exohood/ExohoodToken.sol >>  ./deployments/ExohoodToken.full.sol 
+# echo "" >  ./deployments/Exoswap.full.sol
+# cat  ./scripts/head.sol >  ./deployments/Exoswap.full.sol
+# $TF_CMD ./contracts/Exoswap/Exoswap.sol >>  ./deployments/Exoswap.full.sol 
 
-# echo "" >  ./deployments/ExohoodToken.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodToken.full.sol
-# $TF_CMD ./contracts/nft/ExohoodToken.sol >>  ./deployments/ExohoodToken.full.sol 
-
-
-# echo "" >  ./deployments/ExohoodToken.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodToken.full.sol
-# $TF_CMD ./contracts/nft/ExohoodToken.sol >>  ./deployments/ExohoodToken.full.sol 
+# echo "" >  ./deployments/Exoswap.full.sol
+# cat  ./scripts/head.sol >  ./deployments/Exoswap.full.sol
+# $TF_CMD ./contracts/nft/Exoswap.sol >>  ./deployments/Exoswap.full.sol 
 
 
-# echo "" >  ./deployments/ExohoodFactory.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodFactory.full.sol
-# $TF_CMD ./contracts/nft/ExohoodFactory.sol >>  ./deployments/ExohoodFactory.full.sol 
+# echo "" >  ./deployments/Exoswap.full.sol
+# cat  ./scripts/head.sol >  ./deployments/Exoswap.full.sol
+# $TF_CMD ./contracts/nft/Exoswap.sol >>  ./deployments/Exoswap.full.sol 
+
+
+# echo "" >  ./deployments/ExoswapFactory.full.sol
+# cat  ./scripts/head.sol >  ./deployments/ExoswapFactory.full.sol
+# $TF_CMD ./contracts/nft/ExoswapFactory.sol >>  ./deployments/ExoswapFactory.full.sol 
 
 
 # echo "" >  ./deployments/DividentReward.full.sol
@@ -62,70 +62,69 @@ $TF_CMD ./contracts/reward/AuctionHubRewardProxy.sol >>  ./deployments/AuctionHu
 # $TF_CMD ./contracts/sales/NFTMarket.sol >>  ./deployments/NFTMarket.full.sol 
 
 
-# echo "" >  ./deployments/ExohoodBaseProxy.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodBaseProxy.full.sol
-# $TF_CMD ./contracts/nft/ExohoodBaseProxy.sol >>  ./deployments/ExohoodBaseProxy.full.sol 
+# echo "" >  ./deployments/ExoswapBaseProxy.full.sol
+# cat  ./scripts/head.sol >  ./deployments/ExoswapBaseProxy.full.sol
+# $TF_CMD ./contracts/nft/ExoswapBaseProxy.sol >>  ./deployments/ExoswapBaseProxy.full.sol 
 
-# echo "" >  ./deployments/ExohoodGradeUpProxy.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodGradeUpProxy.full.sol
-# $TF_CMD ./contracts/nft/ExohoodGradeUpProxy.sol >>  ./deployments/ExohoodGradeUpProxy.full.sol 
+# echo "" >  ./deployments/ExoswapGradeUpProxy.full.sol
+# cat  ./scripts/head.sol >  ./deployments/ExoswapGradeUpProxy.full.sol
+# $TF_CMD ./contracts/nft/ExoswapGradeUpProxy.sol >>  ./deployments/ExoswapGradeUpProxy.full.sol 
 
 
-# echo "" >  ./deployments/ExohoodFactory.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodFactory.full.sol
-# $TF_CMD ./contracts/nft/ExohoodFactory.sol >>  ./deployments/ExohoodFactory.full.sol 
+# echo "" >  ./deployments/ExoswapFactory.full.sol
+# cat  ./scripts/head.sol >  ./deployments/ExoswapFactory.full.sol
+# $TF_CMD ./contracts/nft/ExoswapFactory.sol >>  ./deployments/ExoswapFactory.full.sol 
 
 
 # echo "" >  ./deployments/GegeTLevelUpProxy.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodTLevelUpProxy.full.sol
-# $TF_CMD ./contracts/nft/ExohoodTLevelUpProxy.sol >>  ./deployments/ExohoodTLevelUpProxy.full.sol 
+# cat  ./scripts/head.sol >  ./deployments/ExoswapTLevelUpProxy.full.sol
+# $TF_CMD ./contracts/nft/ExoswapTLevelUpProxy.sol >>  ./deployments/ExoswapTLevelUpProxy.full.sol 
 
 
-# echo "" >  ./deployments/ExohoodFactoryBSC.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodFactoryBSC.full.sol
-# $TF_CMD ./contracts/nft/ExohoodFactoryBSC.sol >>  ./deployments/ExohoodFactoryBSC.full.sol 
+# echo "" >  ./deployments/ExoswapFactoryBSC.full.sol
+# cat  ./scripts/head.sol >  ./deployments/ExoswapFactoryBSC.full.sol
+# $TF_CMD ./contracts/nft/ExoswapFactoryBSC.sol >>  ./deployments/ExoswapFactoryBSC.full.sol 
 
-# echo "" >  ./deployments/ExohoodMigratorProxy.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodMigratorProxy.full.sol
-# $TF_CMD ./contracts/nft/ExohoodMigratorProxy.sol >>  ./deployments/ExohoodMigratorProxy.full.sol 
+# echo "" >  ./deploymeoswap.full.sol
+# cat  ./scripts/head.sol >  ./deployments/ExoswapMigratorProxy.full.sol
+# $TF_CMD ./contracts/oswap.sol >>  ./deploymeoswap.full.sol 
 
-# echo "" >  ./deployments/ExohoodMintProxy.full.sol
-# cat  ./scripts/head.sol >  ./deployments/ExohoodMintProxy.full.sol
-# $TF_CMD ./contracts/nft/ExohoodMintProxy.sol >>  ./deployments/ExohoodMintProxy.full.sol 
+# echo "" >  ./deployments/ExoswapMintProxy.full.sol
+# cat  ./scripts/head.sol >  ./deploymenswap.full.sol
+# $TF_CMD ./contracts/nswap.sol >>  ./deploymenswap.full.sol 
 
-echo "" >  ./deployments/ExohoodDividend.full.sol
-cat  ./scripts/head.sol >  ./deployments/ExohoodDividend.full.sol
-$TF_CMD ./contracts/dividend/ExohoodDividend.sol >>  ./deployments/ExohoodDividend.full.sol 
+echo "" >  ./deployments/ExoswapDividend.full.sol
+cat  ./scripts/head.sol >  ./deployments/ExoswapDividend.full.sol
+$TF_CMD ./contracts/dividend/ExoswapDividend.sol >>  ./deployments/ExoswapDividend.full.sol 
 
-echo "" >  ./deployments/ExohoodDividendProxy.full.sol
-cat  ./scripts/head.sol >  ./deployments/ExohoodDividendProxy.full.sol
-$TF_CMD ./contracts/dividend/ExohoodDividendProxy.sol >>  ./deployments/ExohoodDividendProxy.full.sol 
+echo "" >  ./deployments/ExoswapDividendProxy.full.sol
+cat  ./scripts/head.sol >  ./deployments/ExoswapDividendProxy.full.sol
+$TF_CMD ./contracts/dividend/ExoswapDividendProxy.sol >>  ./deployments/ExoswapDividendProxy.full.sol 
 
-echo "" >  ./deployments/ExohoodDividendTeam.full.sol
-cat  ./scripts/head.sol >  ./deployments/ExohoodDividendTeam.full.sol
-$TF_CMD ./contracts/dividend/ExohoodDividendTeam.sol >>  ./deployments/ExohoodDividendTeam.full.sol
+echo "" >  ./deployments/ExoswapDividendTeam.full.sol
+cat  ./scripts/head.sol >  ./deployments/ExoswapDividendTeam.full.sol
+$TF_CMD ./contracts/dividend/ExoswapDividendTeam.sol >>  ./deployments/ExoswapDividendTeam.full.sol
 
-echo "" >  ./deployments/ExohoodDividendTeamProxy.full.sol
-cat  ./scripts/head.sol >  ./deployments/ExohoodDividendTeamProxy.full.sol
-$TF_CMD ./contracts/dividend/ExohoodDividendTeamProxy.sol >>  ./deployments/ExohoodDividendTeamProxy.full.sol
+echo "" >  ./deployments/ExoswapDividendTeamProxy.full.sol
+cat  ./scripts/head.sol >  ./deployments/ExoswapDividendTeamProxy.full.sol
+$TF_CMD ./contracts/dividend/ExoswapDividendTeamProxy.sol >>  ./deployments/ExoswapDividendTeamProxy.full.sol
 
 
+# echo "" >  ./deployments/MarsExoswapDividend.full.sol
+# cat  ./scripts/head.sol >  ./deployments/MarsExoswapDividend.full.sol
+# $TF_CMD ./contracts/Mars/MarsExoswapDividend.sol >>  ./deployments/MarsExoswapDividend.full.sol 
 
-# echo "" >  ./deployments/MarsExohoodDividend.full.sol
-# cat  ./scripts/head.sol >  ./deployments/MarsExohoodDividend.full.sol
-# $TF_CMD ./contracts/Mars/MarsExohoodDividend.sol >>  ./deployments/MarsExohoodDividend.full.sol 
+# echo "" >  ./deployments/MarsExoswapDividendProxy.full.sol
+# cat  ./scripts/head.sol >  ./deployments/MarsExoswapDividendProxy.full.sol
+# $TF_CMD ./contracts/Mars/MarsExoswapDividendProxy.sol >>  ./deployments/MarsExoswapDividendProxy.full.sol 
 
-# echo "" >  ./deployments/MarsExohoodDividendProxy.full.sol
-# cat  ./scripts/head.sol >  ./deployments/MarsExohoodDividendProxy.full.sol
-# $TF_CMD ./contracts/Mars/MarsExohoodDividendProxy.sol >>  ./deployments/MarsExohoodDividendProxy.full.sol 
+# echo "" >  ./deployments/MarsExoswapDividendTeam.full.sol
+# cat  ./scripts/head.sol >  ./deployments/MarsExoswapDividendTeam.full.sol
+# $TF_CMD ./contracts/Mars/MarsExoswapDividendTeam.sol >>  ./deployments/MarsExoswapDividendTeam.full.sol
 
-# echo "" >  ./deployments/MarsExohoodDividendTeam.full.sol
-# cat  ./scripts/head.sol >  ./deployments/MarsExohoodDividendTeam.full.sol
-# $TF_CMD ./contracts/Mars/MarsExohoodDividendTeam.sol >>  ./deployments/MarsExohoodDividendTeam.full.sol
-
-# echo "" >  ./deployments/MarsExohoodDividendTeamProxy.full.sol
-# cat  ./scripts/head.sol >  ./deployments/MarsExohoodDividendTeamProxy.full.sol
-# $TF_CMD ./contracts/Mars/MarsExohoodDividendTeamProxy.sol >>  ./deployments/MarsExohoodDividendTeamProxy.full.sol
+# echo "" >  ./deployments/MarsExoswapDividendTeamProxy.full.sol
+# cat  ./scripts/head.sol >  ./deployments/MarsExoswapDividendTeamProxy.full.sol
+# $TF_CMD ./contracts/Mars/MarsExoswapDividendTeamProxy.sol >>  ./deployments/MarsExoswapDividendTeamProxy.full.sol
 
 echo "deploy end....."
 echo "success"
