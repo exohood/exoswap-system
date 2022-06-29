@@ -1,7 +1,7 @@
 {
-  "name": "exohood-core",
+  "name": "Exoswap",
   "version": "0.0.1",
-  "description": "",
+  "description": "Allow your users to swap crypto without leaving your app/website. Earn on every transaction and monetize your audience with our crypto Widget/API.",
   "repository": {
     "type": "git",
     "url": "*.git"
